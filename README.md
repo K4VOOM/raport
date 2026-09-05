@@ -72,15 +72,6 @@ raport/
 - [PySide6](https://doc.qt.io/qtforpython/) — GUI-фреймворк (Qt для Python)
 - [SQLite](https://www.sqlite.org/) — вбудована база даних (через модуль `sqlite3`)
 
-### Редагування інтерфейсу
-
-Якщо потрібно змінити вигляд вікон, відкрийте `.ui` файли з папки `ui/` у **Qt Designer**, а після збереження перегенеруйте відповідні файли:
-
-```bash
-pyside6-uic ui/main.ui -o ui_generated/ui_form.py
-pyside6-uic ui/dialog.ui -o ui_generated/ui_dialog.py
-```
-
 ---
 
 ## English
@@ -150,12 +141,3 @@ raport/
 - [Python 3](https://www.python.org/)
 - [PySide6](https://doc.qt.io/qtforpython/) — GUI framework (Qt for Python)
 - [SQLite](https://www.sqlite.org/) — built-in database (via the `sqlite3` module)
-
-### Editing the UI
-
-To change the look of the windows, open the `.ui` files from the `ui/` folder in **Qt Designer**, then regenerate the corresponding files after saving:
-
-```bash
-pyside6-uic ui/main.ui -o ui_generated/ui_form.py
-pyside6-uic ui/dialog.ui -o ui_generated/ui_dialog.py
-```
