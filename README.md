@@ -141,5 +141,3 @@ raport/
 - [Python 3](https://www.python.org/)
 - [PySide6](https://doc.qt.io/qtforpython/) — GUI framework (Qt for Python)
 - [SQLite](https://www.sqlite.org/) — built-in database (via the `sqlite3` module)
-
-test
